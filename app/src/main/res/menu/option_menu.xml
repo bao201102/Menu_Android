@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemAbout"
+        android:title="About"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/itemSearch"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/itemProfile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/itemSetting"
+        android:title="Setting">
+
+        <menu>
+
+            <item
+                android:id="@+id/itemSub1"
+                android:title="Item Sub 1"/>
+
+            <item
+                android:id="@+id/itemSub2"
+                android:title="Item Sub 2"/>
+
+        </menu>
+
+    </item>
+</menu>
